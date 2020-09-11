@@ -1,0 +1,5 @@
+package projbackend.main.web;
+
+public class MainController {
+
+}
