@@ -30,7 +30,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
-    <link rel="stylesheet" href="../css/main.css">
+    <!-- <link rel="stylesheet" href="../css/main.css"> -->
+    <link rel="stylesheet" href="../../../../css/projbackend/main/main.css">
     <script type="module" src="../js/general.js" defer></script>
     <script src="https://kit.fontawesome.com/7a9a4a18bf.js" crossorigin="anonymous"></script>
 </head>
@@ -47,6 +48,7 @@
             <li class="navbar__menu__item" data-link="#about">About</li>
             <li class="navbar__menu__item" data-link="#skills">Skills</li>
             <li class="navbar__menu__item" data-link="#work">Work</li>
+            <li class="navbar__menu__item" data-link="#board">Board</li>
             <li class="navbar__menu__item" data-link="#contect">Contect</li>
         </ul>
         <div class="navbar__toggle-btn">

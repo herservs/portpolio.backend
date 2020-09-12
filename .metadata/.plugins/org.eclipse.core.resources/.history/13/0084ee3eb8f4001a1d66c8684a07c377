@@ -1,0 +1,8 @@
+@import '/myWebProjBackend/src/main/webapp/css/main/mobile/m_about.css';
+@import '/myWebProjBackend/src/main/webapp/css/main/mobile/m_general.css';
+@import '/myWebProjBackend/src/main/webapp/css/main/mobile/m_navbar.css';
+@import '/myWebProjBackend/src/main/webapp/css/main/mobile/m_skills.css';
+@import '/myWebProjBackend/src/main/webapp/css/main/mobile/m_work.css';
+
+/* @import '/css/mobile/m_home.css';
+@import '/css/mobile/m_contect.css'; */

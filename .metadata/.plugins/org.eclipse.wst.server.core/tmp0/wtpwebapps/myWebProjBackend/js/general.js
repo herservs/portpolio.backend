@@ -5,6 +5,7 @@ import Navbar from '../js/navbar.js';
 import Home from '../js/home.js';
 import Work from '../js/work.js';
 import About from '../js/about.js';
+import Bbs from '../js/bbs.js';
 
 
 
@@ -39,7 +40,15 @@ nav.navbarMenu.addEventListener('click', (event) => {
         nav.closeNavbar();
     }
 
+    if (link === '#board') {
+        console.log('board1');
+        bbs.moveBbs();
+        console.log('board2');
+    }
+
     scrollIntoView(link);
+
+
 });
 
 nav.navbarToggleBtn.addEventListener('click', () => {
@@ -110,8 +119,7 @@ about.aboutMajors.addEventListener('click', (e) => {
 });
 
 
-
-
+const bbs = new Bbs();
 
 
 

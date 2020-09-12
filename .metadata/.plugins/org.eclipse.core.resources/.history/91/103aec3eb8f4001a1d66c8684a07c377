@@ -1,0 +1,13 @@
+/* @import url('../css/navbar.css'); */
+/* @import url('navbar.css'); */
+/* @import 'navbar.css'; */
+
+@import '/myWebProjBackend/src/main/webapp/css/main/navbar.css';
+@import '/myWebProjBackend/src/main/webapp/css/main/home.css';
+@import '/myWebProjBackend/src/main/webapp/css/main/about.css';
+@import '/myWebProjBackend/src/main/webapp/css/main/skills.css';
+@import '/myWebProjBackend/src/main/webapp/css/main/work.css';
+@import '/myWebProjBackend/src/main/webapp/css/main/contect.css';
+@import '/myWebProjBackend/src/main/webapp/css/main/general.css';
+@import '/myWebProjBackend/src/main/webapp/css/main/general.caa';
+@import '/myWebProjBackend/src/main/webapp/css/main/mobile/m_main.css';

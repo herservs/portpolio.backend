@@ -1,0 +1,18 @@
+/* @import url('../css/navbar.css'); */
+/* @import url('navbar.css'); */
+/* @import 'navbar.css'; */
+
+/* general */
+@import './general.css';
+
+/* main */
+@import './navbar.css';
+@import './home.css';
+@import './about.css';
+@import './skills.css';
+@import './work.css';
+@import './contect.css';
+@import './mobile/m_main.css';
+
+/* bbs */
+@import '../bbs/bbs.css';
