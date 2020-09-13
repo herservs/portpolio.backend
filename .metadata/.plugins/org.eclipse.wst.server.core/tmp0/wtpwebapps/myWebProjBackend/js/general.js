@@ -5,7 +5,7 @@ import Navbar from '../js/navbar.js';
 import Home from '../js/home.js';
 import Work from '../js/work.js';
 import About from '../js/about.js';
-import Bbs from '../js/bbs.js';
+
 
 
 
@@ -41,9 +41,7 @@ nav.navbarMenu.addEventListener('click', (event) => {
     }
 
     if (link === '#board') {
-        console.log('board1');
-        bbs.moveBbs();
-        console.log('board2');
+        moveBbs();
     }
 
     scrollIntoView(link);
@@ -108,6 +106,8 @@ work.workCategories.addEventListener('click', (e) => {
 
 
 
+
+
 ////////////////////// about //////////////////////
 
 const about = new About();
@@ -119,7 +119,8 @@ about.aboutMajors.addEventListener('click', (e) => {
 });
 
 
-const bbs = new Bbs();
+
+
 
 
 
@@ -133,3 +134,24 @@ function scrollIntoView(selector) {
         behavior: 'smooth'
     });
 };
+
+
+function moveBbs() {
+    console.log('bbs.do');
+    location.href = "/bbs/bbs.do";
+}
+
+function moveMain() {
+    console.log('main.do');
+    location.href = "/main/main.do";
+}
+
+function moveFree() {
+    console.log('free.do');
+    location.href = "/bbs/free.do";
+}
+
+function moveVisit() {
+    console.log('visit.do');
+    location.href = "/bbs/visit.do";
+}

@@ -32,7 +32,7 @@
     <title>Portfolio Website</title>
     <!-- <link rel="stylesheet" href="../css/main.css"> -->
     <link rel="stylesheet" href="../../../../css/projbackend/main/main.css">
-    <script type="module" src="../js/general.js" defer></script>
+    <script type="module" src="../../../../js/general.js" defer></script>
     <script src="https://kit.fontawesome.com/7a9a4a18bf.js" crossorigin="anonymous"></script>
 </head>
 

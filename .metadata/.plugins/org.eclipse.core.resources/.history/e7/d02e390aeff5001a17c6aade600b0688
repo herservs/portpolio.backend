@@ -1,0 +1,65 @@
+'use strict';
+
+export default class Bbs {
+
+    moveBbs() {
+        location.href = "/bbs/bbs.do";
+    }
+
+    moveMain() {
+        location.href = "/main/main.do";
+    }
+
+    moveFree() {
+        location.href = "/bbs/free.do";
+    }
+
+    moveVisit() {
+        location.href = "/bbs/visit.do";
+    }
+}
+
+const bs = new Bbs();
+
+const navbarMenu = document.querySelector('.bbs__navbar__menu');
+navbarMenu.addEventListener('click', (event) => {
+
+    const target = event.target;
+    const link = target.dataset.link;
+
+    if (link == null) {
+        return;
+    }
+
+    if (link === '#home') {
+        bs.moveMain();
+    }
+
+    if (link === '#free') {
+        bs.moveFree();
+    }
+
+    if (link === '#visit') {
+        bs.moveVisit();
+    }
+
+    if (link === '#board') {
+        bs.moveBbs();
+    }
+
+});
+
+const navbarLogo = document.querySelector('.bbs__navbar__logo');
+navbarLogo.addEventListener('click', (event) => {
+
+    const target = event.target;
+    const link = target.dataset.link;
+
+    if (link == null) {
+        return;
+    }
+
+    if (link === '#home') {
+        bs.moveMain();
+    }
+});
