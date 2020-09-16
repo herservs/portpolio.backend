@@ -1,0 +1,15 @@
+package egovframework.projbackend.bbs.service.vo;
+
+import lombok.Data;
+
+@Data
+public class BbsVO {
+	
+	private int bbsID;
+	private String bbsTitle;
+	private String userID;
+	private String bbsDate;
+	private String bbsContent;
+	private int bbsAvailable;
+
+}

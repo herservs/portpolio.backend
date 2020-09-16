@@ -1,0 +1,5 @@
+package egovframework.projbackend.bbs.service.vo;
+
+public class Bbs {
+
+}

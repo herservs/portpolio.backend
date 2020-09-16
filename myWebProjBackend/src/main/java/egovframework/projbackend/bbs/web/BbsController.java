@@ -1,7 +1,15 @@
 package egovframework.projbackend.bbs.web;
 
+import java.util.ArrayList;
+
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import egovframework.projbackend.bbs.service.vo.BbsVO;
+import lombok.extern.log4j.Log4j;
 
 
 /**
@@ -24,9 +32,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class BbsController {
 
-	@RequestMapping(value = "/bbs/bbs.do")
-	public String mainPageController() {
+	@RequestMapping(value = "/bbs/bbs.do")	
+	public String mainPageController
+	(@RequestParam("test")String[] name) {
 		
+	for(String str : name) {
+		System.out.println(str);
+	}
+														
 		return "bbs/bbs";
 	}
 	

@@ -1,0 +1,28 @@
+'use strict';
+
+export default class Bbs {
+
+    moveBbs() {
+        console.log('bbs.do');
+        
+//        location.href = "/bbs/bbs.do";
+        
+        // Controller 메소드의 파라미터가 객체일 때
+        location.href = "/bbs/bbs.do?bbsAvailable=10&bbsID=20";
+    }
+
+    moveMain() {
+        console.log('main.do');
+        location.href = "/main/main.do";
+    }
+
+    moveFree() {
+        console.log('free.do');
+        location.href = "/bbs/free.do";
+    }
+
+    moveVisit() {
+        console.log('visit.do');
+        location.href = "/bbs/visit.do";
+    }
+}

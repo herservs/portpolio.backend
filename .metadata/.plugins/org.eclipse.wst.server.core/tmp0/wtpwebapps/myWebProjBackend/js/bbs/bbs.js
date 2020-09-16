@@ -4,7 +4,9 @@ export default class Bbs {
 
     moveBbs() {
         console.log('bbs.do');
+        
         location.href = "/bbs/bbs.do";
+             
     }
 
     moveMain() {

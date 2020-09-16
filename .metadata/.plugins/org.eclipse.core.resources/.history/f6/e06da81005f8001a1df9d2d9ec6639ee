@@ -1,0 +1,46 @@
+package egovframework.projbackend.bbs.service.vo;
+
+import lombok.Data;
+import lombok.Getter;
+
+/**
+ * @Class Name : BbsVO.java
+ * @Description : 게시판에 사용되는 데이터
+ * @Modification Information
+ * @
+ * @  	수정일				수정자				수정내용
+ * @ ----------------------------------------------------------
+ * @ 2020.09.16			Kim-Jeonghun			최초 생성
+ *
+ * @author Kim-Jeonghun
+ * @since 2020.09.16
+ * @version 1.0
+ * @see
+ *
+ *  Copyright 2020. Kim-Jeonghun. All codes can be used without copyright permission.
+ */
+
+/*
+ * @author Kim-Jeonghun
+ * @Description : 
+ * 
+ *  1. @Data : 클래스에 선언된 멤버 변수들의 getter, setter를 자동으로 생성
+ *   가. 사용 이유 : 
+ *    1) @RequestMapping이 적용된 메소드의 파라미터로 사용하기 위해
+ *     가) 내부적으로 setter 메소드가 자동 실행되어 파라미터를 받는 구조이므로 setter 메소드가 반드시 필요   
+ */
+
+@Setter
+public class BbsVO {
+	
+	private int bbsID;
+	private String bbsTitle;
+	private String userID;
+	private String bbsDate;
+	private String bbsContent;
+	private int bbsAvailable;
+	
+	
+	
+
+}
