@@ -137,8 +137,9 @@ function scrollIntoView(selector) {
 
 
 function moveBbs() {
-           
-    location.href = "/bbs/bbs.do?test=one&test=two&test=three";
+           	
+location.href 
+= "/bbs/bbs.do?bbsTitle=hello";
     
 }
 

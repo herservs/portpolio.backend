@@ -48,7 +48,7 @@
             <li class="navbar__menu__item" data-link="#about">About</li>
             <li class="navbar__menu__item" data-link="#skills">Skills</li>
             <li class="navbar__menu__item" data-link="#work">Work</li>
-            <li class="navbar__menu__item" data-link="#board">Board</li>
+<!--             <li class="navbar__menu__item" data-link="#board">Board</li> -->
             <li class="navbar__menu__item" data-link="#contect">Contect</li>
         </ul>
         <div class="navbar__toggle-btn">

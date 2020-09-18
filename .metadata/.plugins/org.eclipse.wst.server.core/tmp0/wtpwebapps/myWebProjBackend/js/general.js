@@ -137,12 +137,9 @@ function scrollIntoView(selector) {
 
 
 function moveBbs() {
-    console.log('bbs.do');
-    
-//    location.href = "/bbs/bbs.do";
-    
-    // Controller 메소드의 파라미터가 객체일 때
-    location.href = "/bbs/bbs.do?test=one&test=two&test=three";
+           	
+location.href 
+= "/bbs/bbs.do?bbsTitle=hello";
     
 }
 

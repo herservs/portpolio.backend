@@ -50,8 +50,6 @@
         </ul>
     </div>
 
-
-
     <!-- https://m.blog.naver.com/PostView.nhn?blogId=javaking75&logNo=220055136733&proxyReferer=https:%2F%2Fwww.google.com%2F -->
     <!-- Section : BBS -->
     <Section id="bbs">
